@@ -3,14 +3,33 @@
 This repository contains my solutions the Project 2019 for the module Programming and Scripting at GMIT.
 [See here for the instructions](https://github.com/ianmcloughlin/project-pands/raw/master/project.pdf)
 
-# About the dataset and the author
+# Project Plan:
+1. Sir Ronal Fisher and Iris dataset - brief introduction
+2. Presentation of the dataset with the column headers
+3. Statistical summary of each column
+4. Mean, maximum and minimum of each of the species
+5. Histogram presentation of both sepal and petal width and length
+6. Summary
+7. References
+
+## How to download this repository
+
+1. Go to Github.
+2. Click the download button.
+
+## How to run this code
+
+1. Make sure you have Python installed.
+2. Run the Dataset.py
+
+1. Sir Ronal Fisher and Iris dataset - brief introduction
 
 Sir Ronald Aylmer Fisher, byname R.A. Fisher, (born February 17, 1890, London, England—died July 29, 1962, Adelaide, Australia) was British statistician and geneticist who pioneered the application of statistical procedures to the design of scientific experiments.
 
 In 1936 he introduced the Iris flower data set (aka Fisher's Iris data set) which is a multivariate data set that consists of 50 samples from each of three species of Iris:
-0 Iris setosa
-1 Iris virginica 
-2 Iris versicolor
+Iris setosa
+Iris virginica 
+Iris versicolor
 
 Four features were measured from each sample: 
 1 the length of the sepals, in centimeters
@@ -27,18 +46,10 @@ References
 [Britannica] https://www.britannica.com/biography/Ronald-Aylmer-Fisher
 [Wikipedia] https://en.wikipedia.org/wiki/Iris_flower_data_set
 [Medium Corporation] https://medium.com/codebagng/basic-analysis-of-the-iris-data-set-using-python-2995618a6342
+[Stackoverflow] Stackoverflow https://stackoverflow.com/a/49970351
 
 
-## How to download this repository
-
-1. Go to Github.
-2. Click the download button.
-
-## How to run this code
-
-1. Make sure you have Python installed.
-2. Run the Dataset.py
-# Comments:
+2. Presentation of the dataset with the column headers
 The data set contains 150 observations of iris flowers. There are four columns of measurements of the flowers in centimeters. The fifth column is the species of the flower observed. All observed flowers belong to one of three species.
      sepal length (cm)  sepal width (cm)  petal length (cm)  petal width (cm)  target
 0                  5.1               3.5                1.4               0.2     0.0
@@ -105,7 +116,8 @@ The data set contains 150 observations of iris flowers. There are four columns o
 
 [150 rows x 5 columns]
 
-Underneath the dataset there are the statistical summary figures:
+3. Statistical summary of each column
+Underneath the dataset there are the statistical summary figures for each column:
             sepal length	sepal width (cm)      petal length (cm) petal width (cm)        target
 count         150.000000        150.000000         150.000000        150.000000  		    150.000000
 mean            5.843333          3.057333           3.758000          1.199333    			1.000000
@@ -116,7 +128,30 @@ min             4.300000          2.000000           1.000000          0.100000 
 75%             6.400000          3.300000           5.100000          1.800000    			2.000000
 max             7.900000          4.400000           6.900000          2.500000    			2.000000
 
-Figure 1 displays the histograms of petal and sepal length and width
+4. Statitical summary for each species:
+# Code adpoted from Stackoverflow https://stackoverflow.com/a/49970351
+Mean of each of the species:
+            
+Species        sepal_length  sepal_width  petal_length  petal_width
+setosa             5.006        3.428         1.462        0.246
+versicolor         5.936        2.770         4.260        1.326
+virginica          6.588        2.974         5.552        2.026
+
+Minimum values for each species:
+Species          sepal_length  sepal_width  petal_length  petal_width
+
+setosa               4.3          2.3           1.0          0.1
+versicolor           4.9          2.0           3.0          1.0
+virginica            4.9          2.2           4.5          1.4
+
+Maximum Values for each species:
+            sepal_length  sepal_width  petal_length  petal_width
+species
+setosa               5.8          4.4           1.9          0.6
+versicolor           7.0          3.4           5.1          1.8
+virginica            7.9          3.8           6.9          2.5
+
+5. Histogram presentation of both sepal and petal width and length
 
 
 
