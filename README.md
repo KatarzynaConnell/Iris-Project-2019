@@ -37,7 +37,7 @@ Based on the combination of these four features, Fisher developed a linear discr
 
 It is worth noting that dataset is sometimes called Anderson’s Iris data set because Edgar Anderson collected the data to quantify the morphologic variation of Iris flowers of three related species. Two of the three species were collected in the Gaspé Peninsula “all from the same pasture, and picked on the same day and measured at the same time by the same person with the same apparatus”
 
-![screenshot] https://user-images.githubusercontent.com/47403763/56757773-f41af300-678c-11e9-8f4d-7f9c26d0357d.PNG
+<img width="520" alt="Iris pictures" src="https://user-images.githubusercontent.com/47403763/56757773-f41af300-678c-11e9-8f4d-7f9c26d0357d.PNG">
 
 References
 
@@ -45,7 +45,7 @@ References
 [Wikipedia] https://en.wikipedia.org/wiki/Iris_flower_data_set
 [Medium Corporation] https://medium.com/codebagng/basic-analysis-of-the-iris-data-set-using-python-2995618a6342
 [Stackoverflow] Stackoverflow https://stackoverflow.com/a/49970351
-
+[README images in Github]
 
 2. Presentation of the dataset with the column headers
 The data set contains 150 observations of iris flowers. There are four columns of measurements of the flowers in centimeters. The fifth column is the species of the flower observed. All observed flowers belong to one of three species.
