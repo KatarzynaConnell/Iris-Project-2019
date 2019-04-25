@@ -27,15 +27,11 @@ This repository contains my solutions the Project 2019 for the module Programmin
 Sir Ronald Aylmer Fisher, byname R.A. Fisher, (born February 17, 1890, London, England—died July 29, 1962, Adelaide, Australia) was British statistician and geneticist who pioneered the application of statistical procedures to the design of scientific experiments.
 
 In 1936 he introduced the Iris flower data set (aka Fisher's Iris data set) which is a multivariate data set that consists of 50 samples from each of three species of Iris:
-Iris setosa
-Iris virginica 
-Iris versicolor
+Iris setosa, Iris virginica, Iris versicolor.
 
-Four features were measured from each sample: 
-1 the length of the sepals, in centimeters
-2 the length of the petals, in centimeters
-3 the width of the sepals, in centimeters 
-4 the width of the petals, in centimeters
+Four features were measured (in cm) from each sample: 
+the length of the sepals, the length of the petals
+the width of the sepals, the width of the petals
 
 Based on the combination of these four features, Fisher developed a linear discriminant model to distinguish the species from each other. 
 
@@ -52,11 +48,12 @@ References
 2. Presentation of the dataset with the column headers
 The data set contains 150 observations of iris flowers. There are four columns of measurements of the flowers in centimeters. The fifth column is the species of the flower observed. All observed flowers belong to one of three species.
 
---------------------------------------------------------------------------------------------
+
 |     sepal length (cm) | sepal width (cm)  | petal length (cm) | petal width (cm) | target |
-|-------------------------------------------------------------------------------------------|    
+|      :---:                   :---:               :---:             :---:           :---:
 |0                  5.1 |              3.5  |              1.4  |            0.2   |  0.0   |
-|1                  4.9 |              3.0  |              1.4  |            0.2   |  0.0   |
+--------------------------------------------------------------------------------------------|
+1                  4.9 |              3.0  |              1.4  |            0.2   |  0.0   |
 |2                  4.7 |              3.2  |              1.3  |            0.2   |  0.0   |
 |3                  4.6 |              3.1  |              1.5  |            0.2   |  0.0   |
 |4                  5.0 |              3.6  |              1.4  |            0.2   |  0.0   |
