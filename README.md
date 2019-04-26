@@ -15,11 +15,10 @@ This repository contains my solutions the Project 2019 for the module Programmin
 
 ## Project Plan:
 1. Sir Ronal Fisher and Iris dataset - brief introduction
-2. Presentation of the dataset
-3. Statistical fugures: columns and species
-4. Data Visualiation
-5. Summary
-6. References
+2. Summarize the dataset
+3. Data Visualiation
+4. Summary
+5. References
 
 
 1. Sir Ronal Fisher and Iris dataset - brief introduction
@@ -40,32 +39,35 @@ It is worth noting that dataset is sometimes called Anderson’s Iris data set b
 <img width="520" alt="Iris pictures" src="https://user-images.githubusercontent.com/47403763/56757773-f41af300-678c-11e9-8f4d-7f9c26d0357d.PNG">
 
 
-
-2. Presentation of the dataset
-The data set contains 150 observations of iris flowers. There are four columns of measurements of the flowers in centimeters. The fifth column is the species of the flower observed. All observed flowers belong to one of three species.
-
-
-3. Statistical figures: columns and species
-The statistical summary figures for each column are:
+2. Summarize the dataset
+2.1 The data set contains 150 observations of iris flowers (sample of 20 lines is shown below). There are four columns of measurements of the flowers in centimeters. The fifth column is the species of the flower observed. 
 
 
-The Mean, Maximum and Minimum value for each of the species are:
+2.2 All observed flowers belong to one of three species. Number of instances in each class are presented in the table below.
+
+2.3 The statistical summary figures for each attribute include count, mean, max and min a well as some percntiles. We can see that all of the numerical values have the same scale (centimeters) and similar ranges between 0 and 8 centimeters.
+
+2.4 The Mean, Maximum and Minimum value for each of the species are:
 # Code adpoted from Stackoverflow https://stackoverflow.com/a/49970351
-
 Mean of each of the species:
             
 Minimum values for each species:
 
 Maximum Values for each species:
 
-4. 4. Data Visualiation 
-Histogram presentation of both sepal and petal width and length
+3. Data Visualiation 
+3.1 Histogram presentation of both sepal and petal width and length gives us an idea about the data distribution:
+
+
+3.2 To see the interactions between the variables let’s look at scatterplots of all pairs of attributes. 
+There is noticable diagonal grouping of some pairs of attributes. This suggests a high correlation and a predictable relationship.
 
 
 
+4. Summry
 
 
-References
+5. References
 
 [Britannica] https://www.britannica.com/biography/Ronald-Aylmer-Fisher
 [Wikipedia] https://en.wikipedia.org/wiki/Iris_flower_data_set
@@ -73,3 +75,4 @@ References
 [Stackoverflow] Stackoverflow https://stackoverflow.com/a/49970351
 [README images in Github]
 [Towards data science] https://towardsdatascience.com/pandas-dataframe-a-lightweight-intro-680e3a212b96
+[Machine Learning Mastery] https://machinelearningmastery.com/machine-learning-in-python-step-by-step/

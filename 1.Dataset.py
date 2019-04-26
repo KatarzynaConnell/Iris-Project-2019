@@ -1,20 +1,24 @@
 # Kasia Connell, 2019
-# Present the Dataset with the column headers
-# Code adopted from 
+# Iris Data Analysis Project for Programming and Scripting Module
 
-# Import datasets, numpy, pandas, pyplot and iris dataset to present dataset and analyze content
-
+# Import Numpy library 
 import numpy as np
+
+#Import Pandas library to analyze the data
 import pandas as pd   
+
+from pandas.tools.plotting import scatter_matrix
+#
 import matplotlib.pyplot as plt
 import seaborn as sns 
 
-# Load Iris dataset
+# Load Iris dataset using sklearn
 from sklearn.datasets import load_iris
 
+#Define Iris data as Panda Dataframe
 seadf = sns.load_dataset('iris')
 
-#Print the dataset
+#Print Panda Dataframe
 print(seadf)
 
 #To give a statistical summary about the dataset (mean, maximum, minimum and devation figures)
@@ -30,5 +34,10 @@ print(seadf.groupby('species').min())
 
 print(seadf.groupby('species').max())
 
+# Print the histograms 
 seadf.hist()
+plt.show()
+
+# scatter plot matrix
+scatter_matrix(seadf)
 plt.show()
