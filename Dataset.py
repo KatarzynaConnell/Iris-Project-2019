@@ -1,15 +1,18 @@
 # Kasia Connell, 2019
 # Iris Data Analysis Project for Programming and Scripting Module
 
-# Import Numpy library 
+# Import Numpy library for mathematical functions
 import numpy as np
 
-#Import Pandas library to analyze the data
+# Import Pandas library to analyze the data
 import pandas as pd   
 
+# import scatter matrix for data visualization
 from pandas.tools.plotting import scatter_matrix
-#
+
+# imprt matplotlib for data visualzation
 import matplotlib.pyplot as plt
+
 # To download iris dataset in the form of a Pandas DataFrame import the seaborn library
 import seaborn as sns 
 
@@ -19,14 +22,15 @@ from sklearn.datasets import load_iris
 # Define Iris data as Panda Dataframe
 seadf = sns.load_dataset('iris')
 
-# Use shape command to check how many instances(rows) and attributes (columns) the set contains
+# Use shape command to check how many instances(rows) and attributes (columns) the set contains and what are the species proportions
+# code adoped from https://machinelearningmastery.com/machine-learning-in-python-step-by-step/
 print(seadf.shape)
+print(seadf.groupby('species').size())
 
-# Use 'Head' and 'Tail commands to print first 20 rows to see the format of data
+# Use 'Head' and 'Tail' commands to print first 20 rows to see the format of data
+# code adopted from https://machinelearningmastery.com/machine-learning-in-python-step-by-step/
 print(seadf.head(10))
 print(seadf.tail(10))
-
-#
 
 #To give a statistical summary about the dataset (mean, maximum, minimum and devation figures)
 #Code adopted from https://medium.com/codebagng/basic-analysis-of-the-iris-data-set-using-python-2995618a6342

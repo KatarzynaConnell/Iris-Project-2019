@@ -66,7 +66,8 @@ Maximum Values for each of the species' attributes:
 <img width="361" alt="Species_Max" src="https://user-images.githubusercontent.com/47403763/56864240-104ea800-69b8-11e9-9f80-1bceaf8a9ab8.PNG">
 
 
-3. Data Visualiation 
+### 3. Data Visualiation 
+
 3.1 Histogram presentation of both sepal and petal width and length gives us an idea about the data distribution:
 
 ![Figure_1](https://user-images.githubusercontent.com/47403763/56864504-21e57f00-69bb-11e9-9036-5f706cfb3543.png)
@@ -76,7 +77,7 @@ There is noticable diagonal grouping of some pairs of attributes. This suggests 
 
 ![Scatter_Matrix](https://user-images.githubusercontent.com/47403763/56864321-fbbedf80-69b8-11e9-9586-f90ac2b44c5b.png)
 
-3.3 To visualize the distribution of the variables for sepal and petal length and width let's see the below 4 violin plots images.
+3.3 To visualize the distribution of the variables for sepals' and petals' length and width let's see the below 4 violin plots images.
 
 Distribution of sepal length:
 
@@ -94,11 +95,12 @@ Distribution of petal width:
 
 ![Petal_width](https://user-images.githubusercontent.com/47403763/56865341-e354c200-69c4-11e9-9b4e-a225e4dfbcb8.png)
 
-4. Summary
+### 4. Summary
 
+Iris dataset is an excellent data sample to learn how to analyze data in Python. The analysis of the dataset can be done in fast and efficient way thanks to the libraries and commands. It is possible to check multiple statistal functions with one line code. The visualization of the data can be performed using different types of charts and, more importantly, it is very quick and time-efficient.  
+The project gave me better practical undesrtanding of analytical tools available in Python and it became apparent that python togteher with libraries is very powerful.
 
-
-5. References
+### 5. References
 
 [Britannica] https://www.britannica.com/biography/Ronald-Aylmer-Fisher
 
@@ -108,7 +110,7 @@ Distribution of petal width:
 
 [Stackoverflow] Stackoverflow https://stackoverflow.com/a/49970351
 
-[README images in Github]
+[README images in Github] https://www.youtube.com/watch?v=nvPOUdz5PL4
 
 [Towards data science] https://towardsdatascience.com/pandas-dataframe-a-lightweight-intro-680e3a212b96
 
