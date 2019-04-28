@@ -13,15 +13,17 @@ This repository contains my solutions the Project 2019 for the module Programmin
 1. Make sure you have Python installed.
 2. Run the Dataset.py
 
-## Project Plan:
+## Project plan
+
 1. Sir Ronal Fisher and Iris dataset - brief introduction
-2. Summarize the dataset
+2. Dataset summary
 3. Data Visualiation
 4. Summary
 5. References
 
 
-1. Sir Ronal Fisher and Iris dataset - brief introduction
+
+### 1. Sir Ronal Fisher and Iris dataset - brief introduction
 
 Sir Ronald Aylmer Fisher, byname R.A. Fisher, (born February 17, 1890, London, England—died July 29, 1962, Adelaide, Australia) was British statistician and geneticist who pioneered the application of statistical procedures to the design of scientific experiments.
 
@@ -39,7 +41,8 @@ It is worth noting that dataset is sometimes called Anderson’s Iris data set b
 <img width="520" alt="Iris pictures" src="https://user-images.githubusercontent.com/47403763/56757773-f41af300-678c-11e9-8f4d-7f9c26d0357d.PNG">
 
 
-2. Summarize the dataset
+### 2. Dataset Summary
+
 2.1 The data set contains 150 observations of iris flowers (sample of 20 lines is shown below). There are four columns of measurements of the flowers in centimeters. The fifth column is the species of the flower observed. 
 
 
@@ -64,7 +67,7 @@ There is noticable diagonal grouping of some pairs of attributes. This suggests 
 
 
 
-4. Summry
+4. Summary
 
 
 5. References
@@ -76,3 +79,4 @@ There is noticable diagonal grouping of some pairs of attributes. This suggests 
 [README images in Github]
 [Towards data science] https://towardsdatascience.com/pandas-dataframe-a-lightweight-intro-680e3a212b96
 [Machine Learning Mastery] https://machinelearningmastery.com/machine-learning-in-python-step-by-step/
+[Matpotlib markers] https://matplotlib.org/api/markers_api.html
