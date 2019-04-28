@@ -36,13 +36,11 @@ print(seadf.groupby('species').max())
 
 # Print the histograms 
 seadf.hist()
+plt.savefig('Figure_1.png')
 plt.show()
 
 # scatter plot matrix
 # Verbatim code from https://machinelearningmastery.com/machine-learning-in-python-step-by-step/
-scatter_matrix(seadf)
-plt.show()
 
 sns.pairplot(hue='species', markers="<", data = seadf, palette=['r' , 'y', 'k'])
-plt.savefig(Scatter_Matrix.jpg)
 plt.show()
