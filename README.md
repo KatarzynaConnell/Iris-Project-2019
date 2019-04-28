@@ -43,15 +43,19 @@ It is worth noting that dataset is sometimes called Anderson’s Iris data set b
 
 ### 2. Dataset Summary
 
-2.1 The data set contains 150 observations of iris flowers (sample of first and last 10 lines is shown below). There are four columns of measurements of the flowers in centimeters. The sepal is larger, lower petal and the petal is the upper petal. The fifth column is the species of the flower observed. 
+2.1 Using 'shape' and 'groupin by size' command it can be checked that the data set contains 150 iris flowers with the distribution of 50 samples per specie.
+
+
+
+2.2 The 'head' and 'tail' command have been used to present the first and the last 10 lines in the set. There are four columns of measurements of the flowers in centimeters. The sepal is larger, lower petal and the petal is the upper petal. The fifth column is the species of the flower observed. 
 
 <img width="393" alt="Data_sample" src="https://user-images.githubusercontent.com/47403763/56863832-4fc6c580-69b3-11e9-8400-87ac44bcd959.PNG">
 
-2.2 The statistical summary figures for each attribute include count, mean, max and min a well as some percntiles. We can see that all of the numerical values have the same scale (centimeters) and similar ranges between 0 and 8 centimeters.
+2.3 I used 'describe' command to see the statistical summary figures for each attribute including count, mean, max and min a well as some percntiles. We can see that all of the numerical values have the same scale (centimeters) and similar ranges between 0 and 8 centimeters.
 
 <img width="353" alt="Column_stats" src="https://user-images.githubusercontent.com/47403763/56864216-c2d23b00-69b7-11e9-9f13-9d79d4eb0cea.PNG">
 
-2.3 The Mean, Maximum and Minimum value for each of the species give us better understanding of the size attributes of each specie:
+2.4 The Mean, Maximum and Minimum functions were used for each of the species to give at first glance better understanding of the size attributes of each specie:
 
 Mean for each of the species' attributes:
 
@@ -68,11 +72,11 @@ Maximum Values for each of the species' attributes:
 
 ### 3. Data Visualiation 
 
-3.1 Histogram presentation of both sepal and petal width and length gives us an idea about the data distribution:
+3.1 Histogram presentation (using 'hist' command) of both sepal and petal width and length allow visualization of data distribution:
 
 ![Figure_1](https://user-images.githubusercontent.com/47403763/56864504-21e57f00-69bb-11e9-9036-5f706cfb3543.png)
 
-3.2 To see the interactions between the variables let’s look at scatterplots of all pairs of attributes. 
+3.2 To see the interactions between the variables let’s look at scatterplots of all pairs of attributes (generated using seaborn pairplot). 
 There is noticable diagonal grouping of some pairs of attributes. This suggests a high correlation and a predictable relationship.
 
 ![Scatter_Matrix](https://user-images.githubusercontent.com/47403763/56864321-fbbedf80-69b8-11e9-9586-f90ac2b44c5b.png)

@@ -7,9 +7,6 @@ import numpy as np
 # Import Pandas library to analyze the data
 import pandas as pd   
 
-# import scatter matrix for data visualization
-from pandas.tools.plotting import scatter_matrix
-
 # imprt matplotlib for data visualzation
 import matplotlib.pyplot as plt
 
@@ -46,6 +43,7 @@ print(seadf.groupby('species').min())
 print(seadf.groupby('species').max())
 
 # Print the histograms 
+# code adopted from https://medium.com/codebagng/basic-analysis-of-the-iris-data-set-using-python-2995618a6342
 seadf.hist()
 plt.show()
 
