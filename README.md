@@ -101,8 +101,8 @@ Distribution of petal width:
 
 ### 4. Summary
 
-Iris dataset is an excellent data sample to learn how to analyze data in Python. The analysis of the dataset can be done in fast and efficient way thanks to the libraries and commands. It is possible to check multiple statistal functions with one line code. The visualization of the data can be performed using different types of charts and, more importantly, it is very quick and time-efficient.  
-The project gave me better practical undesrtanding of analytical tools available in Python and it became apparent that python togteher with libraries is very powerful.
+Iris dataset is an excellent data sample to learn how to analyze data in Python. The analysis of the dataset can be done in fast and efficient way thanks to the libraries and commands. It is possible to check multiple statistal functions with one line code. The visualization of the data can be performed using different types of charts and, more importantly, it is very quick.  
+The project gave me better practical undesrtanding of tools available in Python and also allowed me to expand my knwoledge about Github (how to edit Readme, add images). The project also helped me understand how imortant is reasearch of the problem and that valuable information is available online. I have learned how to look for it better.
 
 ### 5. References
 
