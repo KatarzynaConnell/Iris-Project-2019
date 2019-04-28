@@ -80,18 +80,19 @@ There is noticable diagonal grouping of some pairs of attributes. This suggests 
 
 Distribution of sepal length:
 
-
+![Sepal_length](https://user-images.githubusercontent.com/47403763/56865319-a5f03480-69c4-11e9-87f4-46d381378816.png)
 
 Distribution of sepal width:
 
-
+![sepal_width](https://user-images.githubusercontent.com/47403763/56865326-baccc800-69c4-11e9-80e7-7727a5374dd7.png)
 
 Distribution of petal length:
 
-
+![petal_length](https://user-images.githubusercontent.com/47403763/56865335-d2a44c00-69c4-11e9-8aca-9871221a31c0.png)
 
 Distribution of petal width:
 
+![Petal_width](https://user-images.githubusercontent.com/47403763/56865341-e354c200-69c4-11e9-9b4e-a225e4dfbcb8.png)
 
 4. Summary
 
