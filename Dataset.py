@@ -10,16 +10,23 @@ import pandas as pd
 from pandas.tools.plotting import scatter_matrix
 #
 import matplotlib.pyplot as plt
+# To download iris dataset in the form of a Pandas DataFrame import the seaborn library
 import seaborn as sns 
 
 # Load Iris dataset using sklearn
 from sklearn.datasets import load_iris
 
-#Define Iris data as Panda Dataframe
+# Define Iris data as Panda Dataframe
 seadf = sns.load_dataset('iris')
 
-#Print first 20 rows to see the format of data
-print(seadf.head(20))
+# Use shape command to check how many instances(rows) and attributes (columns) the set contains
+print(seadf.shape)
+
+# Use 'Head' and 'Tail commands to print first 20 rows to see the format of data
+print(seadf.head(10))
+print(seadf.tail(10))
+
+#
 
 #To give a statistical summary about the dataset (mean, maximum, minimum and devation figures)
 #Code adopted from https://medium.com/codebagng/basic-analysis-of-the-iris-data-set-using-python-2995618a6342
@@ -36,7 +43,6 @@ print(seadf.groupby('species').max())
 
 # Print the histograms 
 seadf.hist()
-plt.savefig('Figure_1.png')
 plt.show()
 
 # scatter plot matrix

@@ -51,7 +51,8 @@ It is worth noting that dataset is sometimes called Anderson’s Iris data set b
 
 <img width="353" alt="Column_stats" src="https://user-images.githubusercontent.com/47403763/56864216-c2d23b00-69b7-11e9-9f13-9d79d4eb0cea.PNG">
 
-2.3 The Mean, Maximum and Minimum value for each of the species are:
+2.3 The Mean, Maximum and Minimum value for each of the species give us better understanding of the size attributes of each specie:
+
 Mean of each of the species:
 
 <img width="363" alt="Species_Mean" src="https://user-images.githubusercontent.com/47403763/56864233-f745f700-69b7-11e9-92d0-d2c18a6f66ce.PNG">
@@ -74,6 +75,8 @@ Maximum Values for each species:
 There is noticable diagonal grouping of some pairs of attributes. This suggests a high correlation and a predictable relationship.
 
 ![Scatter_Matrix](https://user-images.githubusercontent.com/47403763/56864321-fbbedf80-69b8-11e9-9586-f90ac2b44c5b.png)
+
+
 
 4. Summary
 
