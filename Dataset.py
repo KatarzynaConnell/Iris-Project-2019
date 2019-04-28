@@ -50,3 +50,20 @@ plt.show()
 
 sns.pairplot(hue='species', markers="<", data = seadf, palette=['r' , 'y', 'k'])
 plt.show()
+
+# Print violinplots to visualize distribution of sepal length variables for all 3 species
+# Code adopted from https://www.kaggle.com/gopaltirupur/iris-data-analysis-and-machine-learning-python
+sns.violinplot(data=seadf, x='species' , y='sepal_length')
+plt.show()
+
+#  Print violinplots to visualize distribution of sepal width variables for all 3 species
+sns.violinplot(data=seadf, x='species', y='sepal_width')
+plt.show()
+
+#  Print violinplots to visualize distribution of petal length variables for all 3 species
+sns.violinplot(data=seadf, x='species', y='petal_length')
+plt.show()
+
+#  Print violinplots to visualize distribution of petal width variables for all 3 species
+sns.violinplot(data=seadf, x='species', y='petal_width')
+plt.show()

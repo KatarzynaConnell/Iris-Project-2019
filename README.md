@@ -43,7 +43,7 @@ It is worth noting that dataset is sometimes called Anderson’s Iris data set b
 
 ### 2. Dataset Summary
 
-2.1 The data set contains 150 observations of iris flowers (sample of first and last 10 lines is shown below). There are four columns of measurements of the flowers in centimeters. The fifth column is the species of the flower observed. 
+2.1 The data set contains 150 observations of iris flowers (sample of first and last 10 lines is shown below). There are four columns of measurements of the flowers in centimeters. The sepal is larger, lower petal and the petal is the upper petal. The fifth column is the species of the flower observed. 
 
 <img width="393" alt="Data_sample" src="https://user-images.githubusercontent.com/47403763/56863832-4fc6c580-69b3-11e9-8400-87ac44bcd959.PNG">
 
@@ -76,18 +76,47 @@ There is noticable diagonal grouping of some pairs of attributes. This suggests 
 
 ![Scatter_Matrix](https://user-images.githubusercontent.com/47403763/56864321-fbbedf80-69b8-11e9-9586-f90ac2b44c5b.png)
 
+3.3 To visualize the distribution of the variables for sepal and petal length and width let's see the below 4 violin plots images.
+
+Distribution of sepal length:
+
+
+
+Distribution of sepal width:
+
+
+
+Distribution of petal length:
+
+
+
+Distribution of petal width:
 
 
 4. Summary
 
 
+
 5. References
 
 [Britannica] https://www.britannica.com/biography/Ronald-Aylmer-Fisher
+
 [Wikipedia] https://en.wikipedia.org/wiki/Iris_flower_data_set
+
 [Medium Corporation] https://medium.com/codebagng/basic-analysis-of-the-iris-data-set-using-python-2995618a6342
+
 [Stackoverflow] Stackoverflow https://stackoverflow.com/a/49970351
+
 [README images in Github]
+
 [Towards data science] https://towardsdatascience.com/pandas-dataframe-a-lightweight-intro-680e3a212b96
+
 [Machine Learning Mastery] https://machinelearningmastery.com/machine-learning-in-python-step-by-step/
+
 [Matpotlib markers] https://matplotlib.org/api/markers_api.html
+
+[Statistical Analysis of Iris Flower Set] http://patrickhoey.com/downloads/Computer_Science/03_Patrick_Hoey_Data_Visualization_Dataset_paper.pdf
+
+[Python Grapg Gallery] https://python-graph-gallery.com/violin-plot/
+
+[Iris Data Analysis and machine learning] https://www.kaggle.com/gopaltirupur/iris-data-analysis-and-machine-learning-python
