@@ -43,29 +43,37 @@ It is worth noting that dataset is sometimes called Anderson’s Iris data set b
 
 ### 2. Dataset Summary
 
-2.1 The data set contains 150 observations of iris flowers (sample of 20 lines is shown below). There are four columns of measurements of the flowers in centimeters. The fifth column is the species of the flower observed. 
+2.1 The data set contains 150 observations of iris flowers (sample of first and last 10 lines is shown below). There are four columns of measurements of the flowers in centimeters. The fifth column is the species of the flower observed. 
 
+<img width="393" alt="Data_sample" src="https://user-images.githubusercontent.com/47403763/56863832-4fc6c580-69b3-11e9-8400-87ac44bcd959.PNG">
 
-2.2 All observed flowers belong to one of three species. Number of instances in each class are presented in the table below.
+2.2 The statistical summary figures for each attribute include count, mean, max and min a well as some percntiles. We can see that all of the numerical values have the same scale (centimeters) and similar ranges between 0 and 8 centimeters.
 
-2.3 The statistical summary figures for each attribute include count, mean, max and min a well as some percntiles. We can see that all of the numerical values have the same scale (centimeters) and similar ranges between 0 and 8 centimeters.
+<img width="353" alt="Column_stats" src="https://user-images.githubusercontent.com/47403763/56864216-c2d23b00-69b7-11e9-9f13-9d79d4eb0cea.PNG">
 
-2.4 The Mean, Maximum and Minimum value for each of the species are:
-# Code adpoted from Stackoverflow https://stackoverflow.com/a/49970351
+2.3 The Mean, Maximum and Minimum value for each of the species are:
 Mean of each of the species:
-            
-Minimum values for each species:
+
+<img width="363" alt="Species_Mean" src="https://user-images.githubusercontent.com/47403763/56864233-f745f700-69b7-11e9-92d0-d2c18a6f66ce.PNG">
+
+Minimum values for each species are presented below:
+
+<img width="361" alt="Species_Min" src="https://user-images.githubusercontent.com/47403763/56864251-29575900-69b8-11e9-93fd-980111035aef.PNG">
 
 Maximum Values for each species:
+
+<img width="361" alt="Species_Max" src="https://user-images.githubusercontent.com/47403763/56864240-104ea800-69b8-11e9-9f80-1bceaf8a9ab8.PNG">
+
 
 3. Data Visualiation 
 3.1 Histogram presentation of both sepal and petal width and length gives us an idea about the data distribution:
 
+![Figure_1](https://user-images.githubusercontent.com/47403763/56864311-de8a1100-69b8-11e9-91b2-ada58a5b833a.png)
 
 3.2 To see the interactions between the variables let’s look at scatterplots of all pairs of attributes. 
 There is noticable diagonal grouping of some pairs of attributes. This suggests a high correlation and a predictable relationship.
 
-
+![Scatter_Matrix](https://user-images.githubusercontent.com/47403763/56864321-fbbedf80-69b8-11e9-9586-f90ac2b44c5b.png)
 
 4. Summary
 
