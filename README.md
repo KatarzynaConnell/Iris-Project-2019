@@ -53,15 +53,15 @@ It is worth noting that dataset is sometimes called Anderson’s Iris data set b
 
 2.3 The Mean, Maximum and Minimum value for each of the species give us better understanding of the size attributes of each specie:
 
-Mean of each of the species:
+Mean for each of the species' attributes:
 
 <img width="363" alt="Species_Mean" src="https://user-images.githubusercontent.com/47403763/56864233-f745f700-69b7-11e9-92d0-d2c18a6f66ce.PNG">
 
-Minimum values for each species are presented below:
+Minimum values for each of the species' attributes:
 
 <img width="361" alt="Species_Min" src="https://user-images.githubusercontent.com/47403763/56864251-29575900-69b8-11e9-93fd-980111035aef.PNG">
 
-Maximum Values for each species:
+Maximum Values for each of the species' attributes:
 
 <img width="361" alt="Species_Max" src="https://user-images.githubusercontent.com/47403763/56864240-104ea800-69b8-11e9-9f80-1bceaf8a9ab8.PNG">
 
@@ -69,7 +69,7 @@ Maximum Values for each species:
 3. Data Visualiation 
 3.1 Histogram presentation of both sepal and petal width and length gives us an idea about the data distribution:
 
-![Figure_1](https://user-images.githubusercontent.com/47403763/56864311-de8a1100-69b8-11e9-91b2-ada58a5b833a.png)
+![Figure_1](https://user-images.githubusercontent.com/47403763/56864504-21e57f00-69bb-11e9-9036-5f706cfb3543.png)
 
 3.2 To see the interactions between the variables let’s look at scatterplots of all pairs of attributes. 
 There is noticable diagonal grouping of some pairs of attributes. This suggests a high correlation and a predictable relationship.
