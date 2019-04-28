@@ -43,9 +43,9 @@ It is worth noting that dataset is sometimes called Anderson’s Iris data set b
 
 ### 2. Dataset Summary
 
-2.1 Using 'shape' and 'groupin by size' command it can be checked that the data set contains 150 iris flowers with the distribution of 50 samples per specie.
+2.1 Using 'shape' and 'groupby size' command it can be checked that the data set contains 150 iris flowers with the distribution of 50 samples per specie.
 
-
+<img width="112" alt="Shape" src="https://user-images.githubusercontent.com/47403763/56866212-a4c40500-69ce-11e9-9499-833d5b20be51.PNG">
 
 2.2 The 'head' and 'tail' command have been used to present the first and the last 10 lines in the set. There are four columns of measurements of the flowers in centimeters. The sepal is larger, lower petal and the petal is the upper petal. The fifth column is the species of the flower observed. 
 
@@ -55,7 +55,7 @@ It is worth noting that dataset is sometimes called Anderson’s Iris data set b
 
 <img width="353" alt="Column_stats" src="https://user-images.githubusercontent.com/47403763/56864216-c2d23b00-69b7-11e9-9f13-9d79d4eb0cea.PNG">
 
-2.4 The Mean, Maximum and Minimum functions were used for each of the species to give at first glance better understanding of the size attributes of each specie:
+2.4 The Mean, Maximum and Minimum functions are used to present size ranges of each specie:
 
 Mean for each of the species' attributes:
 
